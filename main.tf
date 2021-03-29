@@ -5,7 +5,7 @@ variable project_id {}
 
 provider "google" {
   credentials = file(var.crendential_file_path)
-  project = "italo-309023"
+  project = var.project_id
   region  = "us-central1"
   zone    = "us-central1-c"
 }
