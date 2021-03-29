@@ -1,0 +1,4 @@
+private_key_path = "name_of_existing_key_pair" 
+username = "username"
+project_id = "project_id"
+crendential_file_path = "path_to_project_credentials_file
